@@ -8,19 +8,21 @@ import org.openqa.selenium.support.PageFactory;
 
 import selenium.utils.SeleniumWrappers;
 
-public class MenuPage extends SeleniumWrappers{
-	
+public class MenuPage extends SeleniumWrappers {
+
 	public MenuPage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 	
+	
 	//public By myAccountLink = By.linkText("My account");
-	//WebElement element = driver.findelement(myAccountLink);
-
+	//WebElement element = driver.findElement(myAccountLink);
+	
 	@FindBy(linkText = "My account")
 	public WebElement myAccountLink;
 	
-	
-	
+	@FindBy(linkText = "CONTACT")
+	public WebElement contactPageLink;
+
 }

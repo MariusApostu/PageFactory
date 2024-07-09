@@ -1,0 +1,56 @@
+08:52:09.307 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:52:09.313 [main] INFO  framework.utils.Log - Start test case : loginTest
+08:52:09.315 [main] INFO  framework.utils.Log - Start time : 2024.07.09.08.52.09
+08:52:09.315 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:52:09.360 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> link text: My account]
+08:52:09.389 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> link text: My account]
+08:52:11.194 [main] INFO  framework.utils.Log - method <click()> finished[[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> link text: My account]
+08:52:11.221 [main] INFO  framework.utils.Log - call method <sendKeys()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: username]
+08:52:11.234 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: username]
+08:52:11.273 [main] INFO  framework.utils.Log - call method <clear()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: username]
+08:52:11.448 [main] INFO  framework.utils.Log - method <sendKeys()> finished[[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: username]
+08:52:11.470 [main] INFO  framework.utils.Log - call method <sendKeys()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: password]
+08:52:11.483 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: password]
+08:52:11.525 [main] INFO  framework.utils.Log - call method <clear()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: password]
+08:52:11.649 [main] INFO  framework.utils.Log - method <sendKeys()> finished[[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: password]
+08:52:11.666 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> name: login]
+08:52:11.676 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> name: login]
+08:52:23.108 [main] INFO  framework.utils.Log - method <click()> finishedProxy element for: DefaultElementLocator 'By.name: login'
+08:52:23.222 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> link text: Log out]
+08:52:23.256 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> link text: Log out]
+08:52:34.919 [main] INFO  framework.utils.Log - method <click()> finishedProxy element for: DefaultElementLocator 'By.linkText: Log out'
+08:52:34.921 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:52:34.921 [main] INFO  framework.utils.Log - Passed test case : loginTest
+08:52:34.922 [main] INFO  framework.utils.Log - End time : 2024.07.09.08.52.34
+08:52:34.922 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:52:34.928 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:52:34.929 [main] INFO  framework.utils.Log - Start test case : invalidLoginTest
+08:52:34.929 [main] INFO  framework.utils.Log - Start time : 2024.07.09.08.52.34
+08:52:34.929 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:52:34.963 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> link text: My account]
+08:52:34.986 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> link text: My account]
+08:52:36.454 [main] INFO  framework.utils.Log - method <click()> finished[[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> link text: My account]
+08:52:36.467 [main] INFO  framework.utils.Log - call method <sendKeys()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: username]
+08:52:36.479 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: username]
+08:52:36.514 [main] INFO  framework.utils.Log - call method <clear()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: username]
+08:52:36.643 [main] INFO  framework.utils.Log - method <sendKeys()> finished[[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: username]
+08:52:36.660 [main] INFO  framework.utils.Log - call method <sendKeys()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: password]
+08:52:36.668 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: password]
+08:52:36.700 [main] INFO  framework.utils.Log - call method <clear()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: password]
+08:52:36.818 [main] INFO  framework.utils.Log - method <sendKeys()> finished[[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> id: password]
+08:52:36.834 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> name: login]
+08:52:36.844 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> name: login]
+08:52:37.944 [main] INFO  framework.utils.Log - method <click()> finished[[ChromeDriver: chrome on windows (40009918ae1e27e1d91f19391d9c2fe0)] -> name: login]
+08:52:47.957 [main] ERROR framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:52:47.957 [main] ERROR framework.utils.Log - Failed test case : invalidLoginTest
+08:52:47.957 [main] ERROR framework.utils.Log - Failed time : 2024.07.09.08.52.47
+08:52:47.960 [main] ERROR framework.utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".woocommerce\-MyAccount\-content"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40009918ae1e27e1d91f19391d9c2fe0, findElement {value=woocommerce-MyAccount-content, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\apost\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62705}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62705/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40009918ae1e27e1d91f19391d9c2fe0
+08:52:47.960 [main] ERROR framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++

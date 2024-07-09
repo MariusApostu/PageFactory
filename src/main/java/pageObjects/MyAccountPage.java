@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import selenium.utils.SeleniumWrappers;
 
-public class MyAccountPage extends SeleniumWrappers{
+public class MyAccountPage extends SeleniumWrappers {
 
 	public MyAccountPage(WebDriver driver) {
 		super(driver);
@@ -16,7 +16,7 @@ public class MyAccountPage extends SeleniumWrappers{
 
 	
 	@FindBy(id="username")
-	public WebElement userfield;
+	public WebElement userField;
 	
 	@FindBy(id="password")
 	public WebElement passField;
@@ -24,10 +24,20 @@ public class MyAccountPage extends SeleniumWrappers{
 	@FindBy(name="login")
 	public WebElement submitButton;
 	
+	@FindBy(className = "woocommerce-MyAccount-content")
+	public WebElement myAccountContent;
+	
+	@FindBy(linkText = "Log out")
+	public WebElement logoutBtn;
+	
+	
 	public void loginInApp(String user, String pass) {
 		
-		sendKeys(userfield, user);
+		sendKeys(userField, user);
 		sendKeys(passField, pass);
 		click(submitButton);
+		
 	}
+	
+	
 }

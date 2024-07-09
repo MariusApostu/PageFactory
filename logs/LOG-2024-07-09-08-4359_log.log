@@ -1,0 +1,56 @@
+08:43:59.930 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:43:59.937 [main] INFO  framework.utils.Log - Start test case : loginTest
+08:43:59.939 [main] INFO  framework.utils.Log - Start time : 2024.07.09.08.43.59
+08:43:59.939 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:43:59.984 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> link text: My account]
+08:44:00.018 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> link text: My account]
+08:44:00.924 [main] INFO  framework.utils.Log - method <click()> finished[[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> link text: My account]
+08:44:00.940 [main] INFO  framework.utils.Log - call method <sendKeys()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: username]
+08:44:00.951 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: username]
+08:44:00.983 [main] INFO  framework.utils.Log - call method <clear()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: username]
+08:44:01.130 [main] INFO  framework.utils.Log - method <sendKeys()> finished[[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: username]
+08:44:01.145 [main] INFO  framework.utils.Log - call method <sendKeys()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: password]
+08:44:01.156 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: password]
+08:44:01.192 [main] INFO  framework.utils.Log - call method <clear()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: password]
+08:44:01.315 [main] INFO  framework.utils.Log - method <sendKeys()> finished[[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: password]
+08:44:01.332 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> name: login]
+08:44:01.355 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> name: login]
+08:44:12.379 [main] INFO  framework.utils.Log - method <click()> finishedProxy element for: DefaultElementLocator 'By.name: login'
+08:44:12.501 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> link text: Log out]
+08:44:12.542 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> link text: Log out]
+08:44:24.212 [main] INFO  framework.utils.Log - method <click()> finishedProxy element for: DefaultElementLocator 'By.linkText: Log out'
+08:44:24.215 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:44:24.215 [main] INFO  framework.utils.Log - Passed test case : loginTest
+08:44:24.215 [main] INFO  framework.utils.Log - End time : 2024.07.09.08.44.24
+08:44:24.216 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:44:24.222 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:44:24.223 [main] INFO  framework.utils.Log - Start test case : invalidLoginTest
+08:44:24.223 [main] INFO  framework.utils.Log - Start time : 2024.07.09.08.44.24
+08:44:24.223 [main] INFO  framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:44:24.266 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> link text: My account]
+08:44:24.290 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> link text: My account]
+08:44:25.063 [main] INFO  framework.utils.Log - method <click()> finished[[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> link text: My account]
+08:44:25.080 [main] INFO  framework.utils.Log - call method <sendKeys()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: username]
+08:44:25.092 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: username]
+08:44:25.128 [main] INFO  framework.utils.Log - call method <clear()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: username]
+08:44:25.274 [main] INFO  framework.utils.Log - method <sendKeys()> finished[[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: username]
+08:44:25.290 [main] INFO  framework.utils.Log - call method <sendKeys()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: password]
+08:44:25.303 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: password]
+08:44:25.339 [main] INFO  framework.utils.Log - call method <clear()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: password]
+08:44:25.472 [main] INFO  framework.utils.Log - method <sendKeys()> finished[[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> id: password]
+08:44:25.487 [main] INFO  framework.utils.Log - call method <click()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> name: login]
+08:44:25.501 [main] INFO  framework.utils.Log - call method <wait for visibility()> on element [[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> name: login]
+08:44:26.106 [main] INFO  framework.utils.Log - method <click()> finished[[ChromeDriver: chrome on windows (8fc422edbe280bbbb22def23c254b466)] -> name: login]
+08:44:36.121 [main] ERROR framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+08:44:36.122 [main] ERROR framework.utils.Log - Failed test case : invalidLoginTest
+08:44:36.122 [main] ERROR framework.utils.Log - Failed time : 2024.07.09.08.44.36
+08:44:36.127 [main] ERROR framework.utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".woocommerce\-MyAccount\-content"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8fc422edbe280bbbb22def23c254b466, findElement {using=class name, value=woocommerce-MyAccount-content}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\apost\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62537/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fc422edbe280bbbb22def23c254b466
+08:44:36.127 [main] ERROR framework.utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
