@@ -3,9 +3,13 @@
     <test name="test" >
         <parameter name = "appUrl" value="https://keyfood.ro/" />
         <parameter name = "browser" value="chrome" />
-       
+            
         <classes>
-            <class name="tests.LoginTest" ></class> 
+            <class name="tests.ContactFormTest" ></class> 
         </classes>
     </test> 
+    <listeners>
+		<listener class-name="selenium.utils.TestNgListener"></listener>
+	</listeners>
+		
 </suite>
